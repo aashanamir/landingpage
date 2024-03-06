@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container{
+  width: 90%;
+  margin: auto;
+}
+
+
+.hero-img{
+  background-image: url("https://media.istockphoto.com/id/1406645290/photo/big-financial-data-theft-concept-an-anonymous-hacker-is-hacking-highly-protected-financial.webp?b=1&s=170667a&w=0&k=20&c=BvDOxXaDLWePQZOhOvN9Uf-5EYtMhW15SEhiWSeFMMc=");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  height: 70vh;
+  border-radius: 18px;
+}
+
+.hero-content{
+  position: absolute;
+  top: 0;
+  height: 70vh;
+  width: 90%;
+  background-color: white;
+  opacity: 0.7;
+}
